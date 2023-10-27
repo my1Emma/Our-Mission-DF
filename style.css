@@ -1,9 +1,29 @@
+html{
+    width: 100%;
+    width: 100%;
+}
 body{
     background-color: #2b4c4f;
+    text-align: center;
 }
 
 .logo{
     background-color: #fff;
     padding: 10px;
     
+}
+
+#kohaku_intro{
+    display: flex;
+    flex-direction: row;
+}
+
+#kohaku_intro img{
+    width: 400px;
+    overflow: hidden;
+}
+ 
+.description{
+    background-color: #fff;
+    width: 60%;
 }
