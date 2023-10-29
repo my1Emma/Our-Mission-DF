@@ -1,18 +1,31 @@
 html{
     width: 100%;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     background-color: #2b4c4f;
     text-align: center;
 }
 
-.logo{
+header{
+    width: 100%;
     background-color: #fff;
-    padding: 10px;
+    padding: 2px;
+}
+.logo{
+    height: 150px;
     
 }
+#madara_intro{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 10px;
+}
 
+#madara_intro img{
+    width: 300px;
+}
 #kohaku_intro{
     display: flex;
     flex-direction: row;
@@ -25,5 +38,13 @@ body{
  
 .description{
     background-color: #fff;
-    width: 60%;
+    min-width: 60%;
+}
+.name{
+    letter-spacing: 5px;
+}
+
+span{
+    color:#2b4c4f;
+    font-weight: 500px;
 }
